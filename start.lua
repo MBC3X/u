@@ -8840,7 +8840,7 @@ keyboard.inline_keyboard = {
 {{text = '⌔︰ Odin .',url="https://t.me/xRRRx"}},
 {{text = '⌔︰ CoDeR .',url="https://t.me/sSs_sSs"}},
 }
-https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/ourFREE&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/vvivvvvviv&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 ----------------------------------------------------------------------------------------------------
 if text == 'تفعيل' then
