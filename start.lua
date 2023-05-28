@@ -8833,12 +8833,12 @@ end
 ----------------------------------------------------------------------------------------------------
 -- نهايه التفعيل
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then 
-local Text = "*⌔︰ WeLCoMe To FSouRce FREE .*\n"
+local Text = "*‹ : WeLCoMe To FSouRce FREE  .*\n"
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌔︰ SouRce FREE .',url="https://t.me/ourFREE"}},
-{{text = '⌔︰ Odin .',url="https://t.me/xRRRx"}},
-{{text = '⌔︰ CoDeR .',url="https://t.me/sSs_sSs"}},
+{{text = '‹ : SouRce FREE .',url="https://t.me/ourFREE"}},
+{{text = '‹ : Odin .',url="https://t.me/xrrrx"}},
+{{text = '‹ : CoDeR .',url="https://t.me/sSs_sSs"}},
 }
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/vvivvvvviv&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
