@@ -8837,10 +8837,10 @@ local Text = "*- WeLCoMe To SouRce Free  .*\n"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = ' 𓏺 𝖲𝗈𝗎𝖱𝖼𝖾 𝖥𝗋𝖾𝖾 . .',url="https://t.me/ourFREE"}},
-{{text = '𓏺 Один',url="https://t.me/xRRRx"}},
-{{text = '𓏺 𝖢𝗈𝖣𝖾𝖱 . ',url="https://t.me/sSs_sSs"}},
+{{text = ' 𓏺 Один .',url="https://t.me/xRRRx"}},
+{{text = ' 𓏺 𝖢𝗈𝖣𝖾𝖱 . ',url="https://t.me/sSs_sSs"}},
 }
-https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/vvivvvvviv&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/Seilvr&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 ----------------------------------------------------------------------------------------------------
 if text == 'تفعيل' then
